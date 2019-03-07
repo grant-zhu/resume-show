@@ -1,0 +1,33 @@
+header{
+    text-align:center;
+}
+#main{
+    margin:auto;
+}
+#head{
+    background-image:url("../assets/cloud.jpg");
+}
+img{
+    float:left;
+}
+#self-instruction{
+    width:60%;
+    margin:auto;
+}
+#self-instruction article{
+    margin-left: 250px;
+    padding-bottom: 20px;
+}
+/* #self-instruction p{ */
+/*     margin:10px 0 0 0; */
+/* } */
+
+#self-instruction ul{
+    list-style-type:circle;
+
+}
+#navigation{
+    width:60%;
+    margin:auto;
+}
+

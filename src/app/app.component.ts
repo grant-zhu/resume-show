@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { selfInstroduction } from '../entity/self-introduction';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'resume-show';
+    title = '朱雪元';
+    instroductions: string[] = selfInstroduction;
+    construction(){ }
 }

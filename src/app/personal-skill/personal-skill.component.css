@@ -1,0 +1,21 @@
+#personalSkill{
+    margin-top:100px;
+    margin-left:200px;
+}
+#skill{
+    float:left;
+}
+#skill div{
+    margin-top:5px;
+}
+#chart{
+    margin-left:70px;
+}
+#chart div {
+    font: 20px sans-serif;
+    background-color: #7c8cd6c7;
+    text-align: right;
+    padding: 3px;
+    margin: 1px;
+    color: white;
+}
