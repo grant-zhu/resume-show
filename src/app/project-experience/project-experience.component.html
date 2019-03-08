@@ -1,10 +1,14 @@
 <div id="projectExperience">
   <div id="project" *ngFor="let experience of experiences">
     <div id="projectName">{{experience.name}}</div>
-    <div id="projectDescription">{{experience.description}}</div>
+
+    <div id="projectDescription">
+      <div id="subtitle">project instruction</div>
+      <div id="descriptionContent">{{experience.description}}</div>
+    </div>
     <div id="projectDuty">
+      <div id="subtitle">project responsibility</div>
       <ul>
-	<label>project responsibility</label>
 	<li *ngFor="let duty of experience.duty">{{duty}}</li>
       </ul>
     </div>

@@ -3,24 +3,34 @@
     flex-wrap:wrap;
     width:100%;
     justify-content: space-between;
+    overflow-y:auto;
+    height:350px;
 }
 #project{
     /* border:1px solid gray; */
     /* margin-right:20px; */
     width: 40%;
-    margin:20px 30px 20px 30px;
+    margin:40px 30px 20px 30px;
 }
 #projectName{
     text-align:center;
     color:white;
-    background-color:lightblue;
+    /* background-color:lightblue; */
     height: 60px;
     line-height: 60px;
+    background: linear-gradient(to right, lightblue,#b1acb5,lightblue);     
 }
 #projectDescription{
     text-align:justify;
     padding:8px;
-    border-bottom:1px solid lightgray;
-    height: 200px;
-    margin-bottom:20px;
+    height: 250px;
+}
+#descriptionContent{
+    padding-left:40px;
+}
+#projectDuty{
+    padding:8px;
+}
+#subtitle{
+    color:#ada7a7;
 }

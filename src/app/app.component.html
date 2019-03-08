@@ -15,13 +15,17 @@
 <section id="navigation">
 <nav>
     <tabset [justified]="true">
-      <tab heading="personal skills">
-	<app-personal-skill></app-personal-skill>
+      <tab heading="personal skills" (select)="firstTabSelect()">
+	<app-personal-skill *ngIf="firstTabFlag"></app-personal-skill>
       </tab>
       <tab heading="project experience">
 	<app-project-experience></app-project-experience>
+
       </tab>
-      <tab heading="about me">testtab3</tab>
+      <tab heading="about me" (select)="thirdTabSelect()">
+	<app-personal-skill *ngIf="randomNum===1"></app-personal-skill>
+	<app-project-experience *ngIf="randomNum===2"></app-project-experience>
+      </tab>
     </tabset>
 </nav>
 </section>
