@@ -3,6 +3,7 @@ header{
 }
 #main{
     margin:auto;
+    background-color:#e8e8e866;
 }
 #head{
     background-image:url("../assets/cloud.jpg");
@@ -27,7 +28,7 @@ img{
 
 }
 #navigation{
-    width:60%;
+    width:80%;
     margin:auto;
 }
 
