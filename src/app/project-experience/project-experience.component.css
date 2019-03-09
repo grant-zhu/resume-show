@@ -1,7 +1,6 @@
 #projectExperience{
     display: flex;
     flex-wrap:wrap;
-    width:100%;
     justify-content: space-between;
     overflow-y:auto;
     height:350px;

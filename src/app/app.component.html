@@ -14,20 +14,12 @@
 </section>
 <section id="navigation">
 <nav>
-    <tabset [justified]="true">
-      <tab heading="personal skills" (select)="firstTabSelect()">
-	<app-personal-skill *ngIf="firstTabFlag"></app-personal-skill>
-      </tab>
-      <tab heading="project experience">
-	<app-project-experience></app-project-experience>
-
-      </tab>
-      <tab heading="about me" (select)="thirdTabSelect()">
-	<app-personal-skill *ngIf="randomNum===1"></app-personal-skill>
-	<app-project-experience *ngIf="randomNum===2"></app-project-experience>
-      </tab>
-    </tabset>
+    <button routerLink="personal-skill" skipLocationChange="true">personal skills</button>
+    <button routerLink="project-experience" skipLocationChange="true">project experience</button>
+    <button routerLink="about-me" skipLocationChange="true">about me</button>
 </nav>
 </section>
-<footer>contact me</footer>
+<div id="content">
+  <router-outlet></router-outlet>
+<div>
 </div>

@@ -1,29 +1,19 @@
 import { Component, OnInit } from '@angular/core';
 import { selfInstroduction } from '../entity/self-introduction';
+import {Router} from '@angular/router';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css'],
+    // changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
     title = '朱雪元';
-    randomNum = 2;
     instroductions: string[] = selfInstroduction;
-    //show first tab content
-    firstTabFlag = true;
-    construction(){ }
-
+    // constructor(private router:Router,private ref: ChangeDetectorRef){ }
+    constructor(){ }
     ngOnInit(){
 	
     }
-    firstTabSelect(){
-	this.firstTabFlag = true;
-    }
-    thirdTabSelect(){
-	this.firstTabFlag = false;
-	console.log(this.firstTabFlag);
-	setInterval(function(){this.randomNum = Math.floor(Math.random()*2+1);console.log(this.randomNum)},1000)
-    }
-    
 }
