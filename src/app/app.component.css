@@ -7,9 +7,11 @@ header{
 }
 #head{
     background-image:url("../assets/cloud.jpg");
+    background-image:url("../assets/keyboard.jpg");
 }
 img{
     float:left;
+    margin-top:-20px;
 }
 #self-instruction{
     width:60%;
@@ -19,20 +21,49 @@ img{
     margin-left: 250px;
     padding-bottom: 20px;
 }
-/* #self-instruction p{ */
-/*     margin:10px 0 0 0; */
-/* } */
-
 #self-instruction ul{
     list-style-type:circle;
 
 }
 #navigation{
-    width:80%;
-    margin:auto;
+    width:100%;
+    margin-top:-16px;
+    height: 60px;
+    background-color:#000000;
+}
+#navigation ul{
+    list-style-type:none;
+}
+#navigation li{
+    float:left;
+    width:33%;
+    text-align:center;
+    line-height:60px;
+    font-size: 20px;
+    /* padding-top:15px; */
+
+}
+#navigation a{
+    color:white;
+    text-decoration: none;
+}
+#navigation a:hover{
+    color:gray;
+}
+
+/* #navigation li:hover{ */
+/*     color:lightgray; */
+/* } */
+/* .activeBtn span{ */
+/*     background-color:#95a7ad; */
+/* } */
+
+.active span{
+    color:#a2a2ff;
 }
 #content{
     width:80%;
     margin:auto;
 }
+
 

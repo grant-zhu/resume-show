@@ -10,6 +10,7 @@ import {Router} from '@angular/router';
 })
 export class AppComponent {
     title = '朱雪元';
+    btnClick = 0;
     instroductions: string[] = selfInstroduction;
     // constructor(private router:Router,private ref: ChangeDetectorRef){ }
     constructor(){ }

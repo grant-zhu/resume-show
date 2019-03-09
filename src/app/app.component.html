@@ -1,10 +1,10 @@
 <div id="main">
 <section id="head">
+  <section id="self-instruction">
   <header>
     <h1>{{ title }}</h1>
   </header>
-  <section id="self-instruction">
-  <img width="150px" src="../assets/headprotrait.png">
+    <img width="150px" src="../assets/headprotrait.png">
     <article>
       <ul>
 	<li *ngFor="let instruction of instroductions">{{instruction}}</li>
@@ -13,10 +13,15 @@
   </section>
 </section>
 <section id="navigation">
-<nav>
-    <button routerLink="personal-skill" skipLocationChange="true">personal skills</button>
-    <button routerLink="project-experience" skipLocationChange="true">project experience</button>
-    <button routerLink="about-me" skipLocationChange="true">about me</button>
+  <nav>
+    <ul>
+    <!-- <li routerLink="personal-skill" skipLocationChange="true" (click)="btnClick=1;" [ngClass]="{'activeBtn':btnClick===1}"><span>personal skills</span></li> -->
+    <!-- <li routerLink="project-experience" skipLocationChange="true" (click)="btnClick=2;" [ngClass]="{'activeBtn':btnClick===2}"><span>project experience</span></li> -->
+    <!-- <li routerLink="about-me" skipLocationChange="true" (click)="btnClick=3;" [ngClass]="{'activeBtn':btnClick===3}"><span>about me</span></li> -->
+    <li><a routerLink="personal-skill" routerLinkActive="active" skipLocationChange="true"><span>personal skills</span></a></li>
+    <li><a routerLink="project-experience" routerLinkActive="active" skipLocationChange="true"><span>project experience</span></a></li>
+    <li><a routerLink="about-me" routerLinkActive="active" skipLocationChange="true"><span>about me</span></a></li>
+    </ul>
 </nav>
 </section>
 <div id="content">
