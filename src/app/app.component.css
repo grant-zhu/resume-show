@@ -4,31 +4,32 @@ header{
 #main{
     margin:auto;
     background-color:#e8e8e866;
+    /* height: 150px; */
 }
 #head{
-    background-image:url("../assets/cloud.jpg");
     background-image:url("../assets/keyboard.jpg");
-}
-img{
-    float:left;
-    margin-top:-20px;
 }
 #self-instruction{
     width:60%;
+    height:180px;
     margin:auto;
+    display:flex;
+    align-items:center;
 }
-#self-instruction article{
-    margin-left: 250px;
-    padding-bottom: 20px;
+#self-instruction img{
+    position: absolute;
+    left: 30%;
 }
-#self-instruction ul{
-    list-style-type:circle;
+#self-instruction header{
+    position:absolute;
+    left:50%;
 
 }
+
 #navigation{
     width:100%;
     margin-top:-16px;
-    height: 60px;
+    height: 40px;
     background-color:#000000;
 }
 #navigation ul{
@@ -36,12 +37,10 @@ img{
 }
 #navigation li{
     float:left;
-    width:33%;
+    width:33.3%;
     text-align:center;
-    line-height:60px;
+    line-height:40px;
     font-size: 20px;
-    /* padding-top:15px; */
-
 }
 #navigation a{
     color:white;
@@ -51,13 +50,11 @@ img{
     color:gray;
 }
 
-/* #navigation li:hover{ */
-/*     color:lightgray; */
-/* } */
-/* .activeBtn span{ */
-/*     background-color:#95a7ad; */
-/* } */
-
+#home{
+    position:absolute;
+    left:20px;
+}
+ 
 .active span{
     color:#a2a2ff;
 }
@@ -65,5 +62,3 @@ img{
     width:80%;
     margin:auto;
 }
-
-

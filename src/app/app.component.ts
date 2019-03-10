@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { selfInstroduction } from '../entity/self-introduction';
+
 import {Router} from '@angular/router';
 
 @Component({
@@ -9,9 +9,9 @@ import {Router} from '@angular/router';
     // changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppComponent {
-    title = '朱雪元';
+    title = 'Grant Zhu';
     btnClick = 0;
-    instroductions: string[] = selfInstroduction;
+
     // constructor(private router:Router,private ref: ChangeDetectorRef){ }
     constructor(){ }
     ngOnInit(){

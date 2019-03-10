@@ -1,0 +1,31 @@
+#self-information{
+
+}
+#information{
+    margin-top:20px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border-bottom:5px dashed black;
+    border-left:5px dashed black;
+}
+#information ul{
+    list-style-image:url("../../assets/right-solid.svg");
+    list-style-type:circle;
+}
+#instruction{
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border-right:5px dashed black;
+}
+
+#instruction ul{
+    list-style-image:url("../../assets/right-solid.svg");
+    list-style-type:circle;
+    padding-top: 30px;
+    padding-left: 0;
+}
+#self-information li{
+    font-size:20px;
+}

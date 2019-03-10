@@ -4,10 +4,10 @@ export class personalSkill{
 }
 
 export const personalSkills: personalSkill[]=[
-    {skill:"angular",abilityNum:80},
-    {skill:"python",abilityNum:60},
-    {skill:"javascript",abilityNum:70},
-    {skill:"html",abilityNum:75},
-    {skill:"css",abilityNum:80},
-    {skill:"linux",abilityNum:75}
+    {skill:"Angular",abilityNum:80},
+    {skill:"Python",abilityNum:60},
+    {skill:"Javascript",abilityNum:70},
+    {skill:"Html",abilityNum:75},
+    {skill:"Css",abilityNum:80},
+    {skill:"Linux",abilityNum:75}
 ];

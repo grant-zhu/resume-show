@@ -1,0 +1,15 @@
+<div id="self-information">
+  <div id="information">
+    <h2>Basic Information</h2>
+    <ul>
+      <li *ngFor="let informationCategory of informationKeys"><span>{{informationCategory}}</span>:<span>{{informations[informationCategory]}}</span></li>
+    </ul>
+  </div>
+  <div id="instruction">
+    <ul>
+      <li *ngFor="let instruction of instroductions">{{instruction}}</li>
+    </ul>
+    <h2>Self Evaluation</h2>        
+  </div>
+<div>
+ 

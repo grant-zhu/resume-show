@@ -1,7 +1,8 @@
 export const selfInstroduction: string[] = [
-    '熟悉Angular，熟悉组件，服务以及路由的使用',
-    '熟悉python，熟悉os，csv，re等模块的使用',
-    '熟悉linux系统及常见命令，grep，find，sed等',
-    '熟悉docker, 掌握镜像以及容器的生成',
-    '熟悉版本控制工具svn，git常用命令',
+    "Familiar with angular, including the use of component, service, and route",
+    "Familiar with python, including the use of os, csv, re and other modules",
+    "Familiar with common Linux commands, grep, find, sed, etc",
+    "Familiar with version control tool svn, git common commands",
+    "Familiar with docker, including creating image and container",
+    "Familiar with HTML, CSS and JavaScript",
 ]

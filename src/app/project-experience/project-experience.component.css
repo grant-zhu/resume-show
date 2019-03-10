@@ -17,7 +17,8 @@
     /* background-color:lightblue; */
     height: 60px;
     line-height: 60px;
-    background: linear-gradient(to right, lightblue,#b1acb5,lightblue);     
+    background: linear-gradient(to right, lightblue,#b1acb5,lightblue);
+    border-radius:10px;
 }
 #projectDescription{
     text-align:justify;
